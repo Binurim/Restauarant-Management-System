@@ -4,7 +4,6 @@ import Menu from './MenuComponent';
 import DishDetail from './DishdetailComponent';
 import {DISHES} from '../shared/dishes'
 
-
 class Main extends Component {
 
   constructor(props){
@@ -35,6 +34,5 @@ class Main extends Component {
     );
   }
 }
-
 
 export default Main;

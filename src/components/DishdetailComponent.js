@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 class DishDetail extends Component {
-
+ 
   renderDish = dish => {
     if (dish != null) {
       return (
@@ -31,7 +31,6 @@ class DishDetail extends Component {
   }
 
   renderComments = comments => {
-    
     if (comments != null) {
       return (
         <div key={comments.id}>
@@ -49,6 +48,9 @@ class DishDetail extends Component {
     }
   };
 
+
+
+
   render() {
     return (
       <div className="container">
@@ -58,10 +60,18 @@ class DishDetail extends Component {
           </div>
           <div className="col-md-5 m-1 col-sm-12 col-xs-12">
             <h4>Comments</h4>
-            {this.renderComments(this.props.dish)}
-            {/* {this.props.dish.comments.map(comment => {
-              return <div key={comment.id}>{this.renderComments(comment)}</div>;
-            })} */}
+            {this.props.dish ? (
+              <div>
+                {" "}
+                {this.props.dish.comments.map(comment => {
+                  return (
+                    <div key={comment.id}>{this.renderComments(comment)}</div>
+                  );
+                })}
+              </div>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
