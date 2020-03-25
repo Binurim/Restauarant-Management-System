@@ -2,7 +2,15 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 class DishDetail extends Component {
- 
+    
+  componentDidMount() {
+    console.log("Dishdetail Component componentDidMount is invoked");
+  }
+
+  componentDidUpdate() {
+    console.log("Dishdetail Component componentDidUpdate is invoked");
+  }
+
   renderDish = dish => {
     if (dish != null) {
       return (
@@ -48,10 +56,9 @@ class DishDetail extends Component {
     }
   };
 
-
-
-
   render() {
+    console.log("Dishdetail Component render is invoked");
+
     return (
       <div className="container">
         <div className="row">

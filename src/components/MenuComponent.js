@@ -5,15 +5,15 @@ class Menu extends Component {
   constructor(props) {
     super(props);
 
-    console.log("Menu Components constructor is invoked");
+    console.log("Menu Component constructor is invoked");
   }
 
   componentDidMount() {
-    console.log("Menu Components componentDidMount is invoked");
+    console.log("Menu Component componentDidMount is invoked");
   }
 
   render() {
-    console.log("Menu Components render is invoked");
+    console.log("Menu Component render is invoked");
 
     const menu = this.props.dishes.map(dish => {
       return (
