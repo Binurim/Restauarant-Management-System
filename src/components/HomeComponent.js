@@ -14,8 +14,6 @@ function RenderCard({item}){
         </Card>
 
     );
-
-
 }
 
 function Home(props) {
