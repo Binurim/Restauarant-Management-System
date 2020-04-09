@@ -26,7 +26,7 @@ import CommentForm from './CommentForm';
     return new Date(string).toLocaleDateString([], options);
   };
 
-  function RenderComments ({comments}){
+  function RenderComments ({comments, addComment, dishId}){
     const comment = comments.map(comment => {
       return (
         <div key={comment.id}>
@@ -44,7 +44,7 @@ import CommentForm from './CommentForm';
     return (
     <div>
        {comment}
-      <CommentForm/>
+      <CommentForm dishId={dishId} addComment={addComment}/>
      </div>
      );
   };
@@ -69,7 +69,9 @@ import CommentForm from './CommentForm';
             <div className="col-md-5 m-1 col-sm-12 col-xs-12">
               <h4>Comments</h4>
               <div>
-                <RenderComments comments={props.comments}/>
+                <RenderComments comments={props.comments}
+                addComment={props.addComment}
+                dishId={props.dish.id}/>
               </div>
             </div>
           </div>

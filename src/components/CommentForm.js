@@ -18,8 +18,9 @@ class CommentForm extends Component {
   };
 
   handleSubmit=(values)=>{
-    console.log("Cureent state is:"+ JSON.stringify(values));
-    alert("Cureent state is:"+ JSON.stringify(values));
+     this.toggleModal();
+     this.props.addComment(this.props.dishId, values.rating, values.author, values.comment)
+
 }
 
 
@@ -41,6 +42,8 @@ class CommentForm extends Component {
                      <option>1</option>
                      <option>2</option>
                      <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
 
                 </Control.select>
             </Row>
