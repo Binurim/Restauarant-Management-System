@@ -8,7 +8,7 @@ const minLength = (len) => (val) => val && (val.length >= len);
 class CommentForm extends Component {
     constructor(props){
         super(props);
-        this.state=[];
+        this.state="";
     };
 
   toggleModal = () => {
