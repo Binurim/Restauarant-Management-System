@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Modal, ModalBody, ModalHeader, Form, FormGroup, Label, Input, Col, Row} from "reactstrap";
+import { Button, Modal, ModalBody, ModalHeader, Label, Row} from "reactstrap";
 import { Control, LocalForm, Errors } from 'react-redux-form';
 
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
