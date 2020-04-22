@@ -24,7 +24,7 @@ import {baseUrl} from '../shared/baseUrl';
     return new Date(string).toLocaleDateString([], options);
   };
 
-  function RenderComments ({comments, addComment, dishId}){
+  function RenderComments ({comments, postComment, dishId}){
     const comment = comments.map(comment => {
       return (
         <div key={comment.id}>
@@ -42,7 +42,7 @@ import {baseUrl} from '../shared/baseUrl';
     return (
     <div>
        {comment}
-      <CommentForm dishId={dishId} addComment={addComment}/>
+      <CommentForm dishId={dishId} postComment={postComment}/>
      </div>
      );
   };
@@ -88,7 +88,7 @@ import {baseUrl} from '../shared/baseUrl';
               <h4>Comments</h4>
               <div>
                 <RenderComments comments={props.comments}
-                addComment={props.addComment}
+                postComment={props.postComment}
                 dishId={props.dish.id}/>
               </div>
             </div>
