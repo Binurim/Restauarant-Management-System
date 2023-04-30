@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8c847dfef8ca01e400363dc8c8deef8",
+    "revision": "cd595214b8b67379d8c88f8d38373b9d",
     "url": "/Restauarant-Management-System/index.html"
   },
   {
-    "revision": "89500dee8d8a69e88016",
+    "revision": "538ac70aaffba3ada466",
     "url": "/Restauarant-Management-System/static/css/2.bf6a1e66.chunk.css"
   },
   {
-    "revision": "12e256b93c14a15f45fc",
+    "revision": "7492a30dccabce8183d4",
     "url": "/Restauarant-Management-System/static/css/main.b3ef4b2c.chunk.css"
   },
   {
-    "revision": "89500dee8d8a69e88016",
-    "url": "/Restauarant-Management-System/static/js/2.0b18ff6e.chunk.js"
+    "revision": "538ac70aaffba3ada466",
+    "url": "/Restauarant-Management-System/static/js/2.713ae14d.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/Restauarant-Management-System/static/js/2.0b18ff6e.chunk.js.LICENSE.txt"
+    "url": "/Restauarant-Management-System/static/js/2.713ae14d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12e256b93c14a15f45fc",
-    "url": "/Restauarant-Management-System/static/js/main.0c4cd61c.chunk.js"
+    "revision": "7492a30dccabce8183d4",
+    "url": "/Restauarant-Management-System/static/js/main.29a9772f.chunk.js"
   },
   {
     "revision": "bd6db3ca652967f94811",
