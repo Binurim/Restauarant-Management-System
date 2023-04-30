@@ -1,3 +1,4 @@
+/** 
 import * as ActionTypes from './ActionTypes';
 
 export const Promotions = (state = {
@@ -15,6 +16,16 @@ export const Promotions = (state = {
         case ActionTypes.PROMOS_FAILED:
             return {...state, isLoading: false, errMess: action.payload, promotions: [] }
 
+        default:
+            return state;
+    }
+}
+*/
+
+import {PROMOTIONS} from '../shared/promotions';
+
+export const Promotions = (state = PROMOTIONS, action)=>{
+    switch(action.type){
         default:
             return state;
     }

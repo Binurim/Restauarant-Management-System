@@ -1,1 +1,1 @@
-export const baseUrl =  'https://binurim.github.io/Restauarant-Management-System/';
+export const baseUrl =  'https://binurim.github.io/Restauarant-Management-System';

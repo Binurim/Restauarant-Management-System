@@ -1,3 +1,9 @@
+/**
+ * With backend server connected
+ */
+
+
+/**
 import * as ActionTypes from './ActionTypes';
 
 export const Leaders = (state ={
@@ -16,6 +22,16 @@ export const Leaders = (state ={
         case ActionTypes.LEADERS_FAILED:
             return {...state, isLoading: false, errMess: action.payload, leaders: [] }
 
+        default:
+            return state;
+    }
+}
+ */
+
+import {LEADERS} from '../shared/leaders';
+
+export const Leaders = (state = LEADERS, action)=>{
+    switch(action.type){
         default:
             return state;
     }
