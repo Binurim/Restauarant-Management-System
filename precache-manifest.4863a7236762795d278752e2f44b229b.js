@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "118b167be003a8fff73f0afa09a0ffc0",
+    "revision": "3de13c8edaca040aac61821117160b19",
     "url": "/Restauarant-Management-System/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Restauarant-Management-System/static/css/2.bf6a1e66.chunk.css"
   },
   {
-    "revision": "6df15685701b48159971",
-    "url": "/Restauarant-Management-System/static/css/main.30d1895c.chunk.css"
+    "revision": "49488f808a8ee8fa68b7",
+    "url": "/Restauarant-Management-System/static/css/main.0683acf2.chunk.css"
   },
   {
     "revision": "277de81a38d83b57b894",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Restauarant-Management-System/static/js/2.e2733fc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6df15685701b48159971",
-    "url": "/Restauarant-Management-System/static/js/main.a7b8f597.chunk.js"
+    "revision": "49488f808a8ee8fa68b7",
+    "url": "/Restauarant-Management-System/static/js/main.f2b96c84.chunk.js"
   },
   {
     "revision": "bd6db3ca652967f94811",

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Restauarant-Management-System/static/css/main.30d1895c.chunk.css",
-    "main.js": "/Restauarant-Management-System/static/js/main.a7b8f597.chunk.js",
-    "main.js.map": "/Restauarant-Management-System/static/js/main.a7b8f597.chunk.js.map",
+    "main.css": "/Restauarant-Management-System/static/css/main.0683acf2.chunk.css",
+    "main.js": "/Restauarant-Management-System/static/js/main.f2b96c84.chunk.js",
+    "main.js.map": "/Restauarant-Management-System/static/js/main.f2b96c84.chunk.js.map",
     "runtime-main.js": "/Restauarant-Management-System/static/js/runtime-main.671e1961.js",
     "runtime-main.js.map": "/Restauarant-Management-System/static/js/runtime-main.671e1961.js.map",
     "static/css/2.bf6a1e66.chunk.css": "/Restauarant-Management-System/static/css/2.bf6a1e66.chunk.css",
     "static/js/2.e2733fc4.chunk.js": "/Restauarant-Management-System/static/js/2.e2733fc4.chunk.js",
     "static/js/2.e2733fc4.chunk.js.map": "/Restauarant-Management-System/static/js/2.e2733fc4.chunk.js.map",
     "index.html": "/Restauarant-Management-System/index.html",
-    "precache-manifest.7921e095d3b2a3a49f5dacba55ceca46.js": "/Restauarant-Management-System/precache-manifest.7921e095d3b2a3a49f5dacba55ceca46.js",
+    "precache-manifest.4863a7236762795d278752e2f44b229b.js": "/Restauarant-Management-System/precache-manifest.4863a7236762795d278752e2f44b229b.js",
     "service-worker.js": "/Restauarant-Management-System/service-worker.js",
     "static/css/2.bf6a1e66.chunk.css.map": "/Restauarant-Management-System/static/css/2.bf6a1e66.chunk.css.map",
-    "static/css/main.30d1895c.chunk.css.map": "/Restauarant-Management-System/static/css/main.30d1895c.chunk.css.map",
+    "static/css/main.0683acf2.chunk.css.map": "/Restauarant-Management-System/static/css/main.0683acf2.chunk.css.map",
     "static/js/2.e2733fc4.chunk.js.LICENSE.txt": "/Restauarant-Management-System/static/js/2.e2733fc4.chunk.js.LICENSE.txt",
     "static/media/font-awesome.css": "/Restauarant-Management-System/static/media/fontawesome-webfont.fee66e71.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.671e1961.js",
     "static/css/2.bf6a1e66.chunk.css",
     "static/js/2.e2733fc4.chunk.js",
-    "static/css/main.30d1895c.chunk.css",
-    "static/js/main.a7b8f597.chunk.js"
+    "static/css/main.0683acf2.chunk.css",
+    "static/js/main.f2b96c84.chunk.js"
   ]
 }
