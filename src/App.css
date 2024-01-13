@@ -59,3 +59,14 @@ address{
     color: #b8b9bb !important;
     border-color: #8b9197 !important;
 }
+
+.card-header{
+    color: #0f0f0f !important;
+    background-color: #D1C4E9 !important;
+}
+
+.button{
+    background-color: #cbbaeb !important;
+    color: black !important;
+    border-color: rgb(160, 154, 154) !important;
+}

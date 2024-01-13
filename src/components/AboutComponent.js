@@ -17,7 +17,7 @@ function About(props) {
         <Fade in>            
                 <Media tag="li" key={leader.id} className="col-12 mb-4">
                   <Media left middle>
-                      <Media object src={baseUrl + leader.image} alt={leader.name} />
+                      <Media object src={baseUrl + leader.image} alt={leader.name} style={{ height: 100, width: 100 }}/>
                   </Media>
                   <Media body className="ml-5">
                     <Media heading>{leader.name}</Media>
@@ -49,7 +49,7 @@ function About(props) {
                 </div>
                 <div className="col-12 col-md-5">
                     <Card>
-                        <CardHeader className="bg-primary text-white">Facts At a Glance</CardHeader>
+                        <CardHeader className="card-header">Facts At a Glance</CardHeader>
                         <CardBody>
                             <dl className="row p-1">
                                 <dt className="col-6">Started</dt>
@@ -84,11 +84,11 @@ function About(props) {
                     <h2>Corporate Leadership</h2>
                 </div>
                 <div className="col-12">
-                    <Media list>
+                    <div list>
                         <Stagger in>
                         {leaders}
                         </Stagger>
-                    </Media>
+                    </div>
                 </div>
             </div>
         </div>
